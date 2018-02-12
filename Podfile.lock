@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.6.0)
+  - EVReflection (5.5.2):
+    - EVReflection/Core (= 5.5.2)
+  - EVReflection/Alamofire (5.5.2):
+    - Alamofire
+    - EVReflection/Core
+  - EVReflection/Core (5.5.2)
+  - Kingfisher (4.6.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - EVReflection
+  - EVReflection/Alamofire
+  - Kingfisher (~> 4.0)
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  EVReflection: d41e17998e6fe326bef86b836e980a8010afa5e4
+  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+
+PODFILE CHECKSUM: 7231d2e078fd484bd678ee7260cb992d6bd9d2fd
+
+COCOAPODS: 1.4.0
