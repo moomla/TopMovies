@@ -12,11 +12,13 @@ class ActorDetailsViewController: UIViewController {
     
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var birthdayLabel: UILabel!
+    @IBOutlet weak var deathDateLabel: UILabel!
     @IBOutlet weak var portretView: UIImageView!
     @IBOutlet weak var overviewLabel: UILabel!
     @IBOutlet weak var filmografyContainer: UIView!
     @IBOutlet weak var loadingView: UIView!
     @IBOutlet weak var activiyView: UIActivityIndicatorView!
+    @IBOutlet weak var dataStackView: UIStackView!
     
     var selectedMovieId: String?
     weak var filmographyViewController: HorizontalScrollViewController? {
@@ -82,6 +84,7 @@ class ActorDetailsViewController: UIViewController {
         
         self.nameLabel.text = person.name
         self.birthdayLabel.text = person.birthday
+        self.deathDateLabel.text = person.deathday
         self.overviewLabel.text = person.biography
         
     }
